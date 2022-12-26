@@ -1,0 +1,26 @@
+{
+  "name": "note-api",
+  "version": "1.0.0",
+  "description": "api for note website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachmadi15/note-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachmadi15/note-api/issues"
+  },
+  "homepage": "https://github.com/rachmadi15/note-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1"
+  }
+}
