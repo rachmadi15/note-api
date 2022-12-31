@@ -4,7 +4,7 @@ mongoose.Promise = global.Promise;
 
 mongoose.set("strictQuery", true);
 
-mongoose.connect('mongodb+srv://cobaDB:passwordbaru123@cluster0.rmaq9f3.mongodb.net/?retryWrites=true&w=majority/notesapp').then(() => {
+mongoose.connect('mongodb://127.0.0.1:27017/notesapp').then(() => {
     console.log('DB Connected Succesfully');
 }).catch((err) => {
     console.log(err);
