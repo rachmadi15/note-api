@@ -52,7 +52,8 @@ app.use(express.json());
 app.use("", userRouter)
 app.use("/note", notesRouter)
 
+const PORT = process.env.PORT || 3000;
 
-app.listen(3000, () => {
-    console.log('Server Running');
+app.listen(PORT, () => {
+    console.log(`Server is running in port ${PORT}`);
 })
